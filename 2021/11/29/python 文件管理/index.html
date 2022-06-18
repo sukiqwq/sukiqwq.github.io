@@ -194,7 +194,6 @@
 <h2 id="Write（）"><a href="#Write（）" class="headerlink" title="Write（）"></a>Write（）</h2><p>•write() : 将字符串写入文件早作孚所在的行<br>•writelines() : 将一个字符串列表按行写入文件</p>
 <h2 id="删除文件"><a href="#删除文件" class="headerlink" title="删除文件"></a>删除文件</h2><p>使用os.remove()删除文件</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> os</span><br><span class="line">os.remove(<span class="string">&quot;demofile.txt&quot;</span>)</span><br></pre></td></tr></table></figure>
-
 <h2 id="with-修饰"><a href="#with-修饰" class="headerlink" title="with 修饰"></a>with 修饰</h2><p>在文件读取/写入使用with，这样可以避免使用file.close()语句。</p>
 <p>如果在文件使用完成后，不关闭文件，其他程序将无法读取该文件。</p>
 <p>with 语句的作用是在使用完成后自动释放资源。</p>
